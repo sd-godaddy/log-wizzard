@@ -16,7 +16,7 @@ and then in the IDE terminal use simple command ...
 
 ```
 
-tail -f -n 1000 .git/debug | log-wizzard
+tail -f -n 1000 .git/debug.log | log-wizzard
 
 ```
 
