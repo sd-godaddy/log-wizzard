@@ -28,7 +28,7 @@ For the purpose of example above in the image here describing the process of con
 
 # Some thoughts
 
-Probably thanks to the approach of just listening on the file containing the logs this solution might have potential to be more universal, IDE agnostic.
+Probably thanks to the approach of just listening on the file containing the logs this solution might have potential to be more universal - makes it IDE agnostic.
 
 And since it is just forcused on finding and formatting json lines of the file it might also work for other tech stack - not only for Java.
 
