@@ -16,7 +16,7 @@ and then in the IDE terminal use simple command ...
 
 ```
 
-tail -f -n 1000 .git/debug | log-wizzard
+tail -f -n 1000 .git/debug.log | log-wizzard
 
 ```
 
@@ -28,7 +28,7 @@ For the purpose of this example in the step 3 set .git/debug.log - ABSOLUTE PATH
 
 # Some thoughts
 
-Probably thanks to the approach of just listening on the file containing the logs this solution might have potential to be more universal, IDE agnostic.
+Probably thanks to the approach of just listening on the file containing the logs this solution might have potential to be more universal - makes it IDE agnostic.
 
 And since it is just forcused on finding and formatting json lines of the file it might also work for other tech stack - not only for Java.
 
