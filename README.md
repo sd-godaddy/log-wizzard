@@ -30,7 +30,7 @@ For the purpose of this example in the step 3 set .git/debug.log - ABSOLUTE PATH
 
 Probably thanks to the approach of just listening on the file containing the logs this solution might have potential to be more universal - makes it IDE agnostic.
 
-And since it is just forcused on finding and formatting json lines of the file it might also work for other tech stack - not only for Java.
+And since it is just focused on finding and formatting json lines of the file it might also work for other tech stack - not only for Java.
 
 Nice thing about tail -f is that it seems you can restart SpringBoot and it will stay as is still watching for changes on that file.
 
