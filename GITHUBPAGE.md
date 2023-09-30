@@ -7,7 +7,7 @@
 
 # Why? & What?
 
-It's the simple spring boot log formatter.
+It's the simple spring boot log formatter for fromat often called JSON Log Format
 
 I've tried to use pino-pretty library but there was a problem with clearning java stack in the log to make it more readable so I just made this library - Little weekend project.
 
